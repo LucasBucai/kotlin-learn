@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug lesson_02.kt",
+      "request": "launch",
+      "mainClass": "org.example.Lesson_02Kt",
+      "cwd": "${workspaceFolder}/kotlin-playground",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "java",
+      "name": "Debug lesson_01.kt",
+      "request": "launch",
+      "mainClass": "org.example.Lesson_01Kt",
+      "cwd": "${workspaceFolder}/kotlin-playground",
+      "console": "integratedTerminal"
+    }
+  ]
+}
