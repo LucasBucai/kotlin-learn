@@ -71,3 +71,21 @@ val message = "Bienvenido, " + name
 
 Regla práctica:
 preferir `$name` cuando solo se quiere insertar una variable en un texto.
+
+# if como expresión
+
+En Kotlin, `if` puede producir un valor.
+
+```kotlin
+val message = if (age >= 18) "Puede entrar" else "No puede entrar"
+```
+
+También puede usarse como retorno de una función de una sola expresión:
+
+```kotlin
+fun accessMessage(age: Int): String =
+    if (age >= 18) "Puede entrar" else "No puede entrar"
+```
+
+Regla práctica:
+si el `if` tiene que devolver un valor, incluir siempre `else`.

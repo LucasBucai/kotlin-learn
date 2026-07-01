@@ -31,3 +31,19 @@ Observación:
 - Una condición booleana puede devolverse directamente con `return age >= adultAge`.
 - En Kotlin, `"Bienvenido, $name"` usa el valor de la variable.
 - `"Bienvenido, <name>"` imprime el texto literal `<name>`.
+
+# Clase 3 - if como expresión
+
+Completado:
+- Uso de `if` para producir un valor.
+- Asignación del resultado de un `if` a una variable o retorno de función.
+- Funciones de una sola expresión combinadas con `if`.
+
+Ejercicio trabajado:
+- `accessMessage(age: Int): String`.
+
+Observación:
+- En Kotlin, `if` puede devolver un valor.
+- Cuando `if` se usa como expresión, debe cubrir ambos casos con `else`.
+- La función `accessMessage(17)` devuelve `"No puede entrar"`.
+- La función `accessMessage(23)` devuelve `"Puede entrar"`.
